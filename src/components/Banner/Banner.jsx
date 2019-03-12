@@ -17,7 +17,7 @@ class Banner extends Component {
 								<li className="text-center" data-transition="crossfade" data-slotamount="default"
 								    data-masterspeed="default" data-title="Slide Title">
 
-									<img src="images/slider-fullscreen2-slide-1.jpg" alt="slidebg1"
+									<img src="images/image1.jpg" alt="slidebg1"
 									     data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover"
 									     className="rev-slidebg"/>
 
@@ -45,7 +45,7 @@ class Banner extends Component {
 										     data-transform_in="x:[50%];o:0;s:600;e:Power4.easeInOut;"
 										     data-transform_out="x:[-50%];o:0;s:200;e:Power2.easeInOut;"
 										     data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Inspiration
+										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Code
 										</div>
 
 										<div className="tp-caption xlarge_white"
@@ -61,7 +61,7 @@ class Banner extends Component {
 										     data-transform_in="x:[-50%];o:0;s:600;e:Power4.easeInOut;"
 										     data-transform_out="x:[-50%];o:0;s:200;e:Power2.easeInOut;"
 										     data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Innovation
+										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Web
 										</div>
 
 										<div className="tp-caption xlarge_white"
@@ -77,7 +77,7 @@ class Banner extends Component {
 										     data-transform_in="x:[50%];o:0;s:600;e:Power4.easeInOut;"
 										     data-transform_out="x:0;y:[-50%];o:0;s:200;e:Power2.easeInOut;"
 										     data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Success
+										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Mobile
 										</div>
 
 										<div className="tp-caption large_white"
@@ -89,9 +89,8 @@ class Banner extends Component {
 										     data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
 										     data-mask_in="x:0px;y:[-100%];s:inherit;e:inherit;"
 										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span
-											className="logo-font">The <span
-											className="text-default">Project</span></span> <br/> Powerful Bootstrap
-											Template</div>
+											className="logo-font">Tecode <span
+											className="text-default">Projects</span></span> <br/> Portifolio</div>
 
 										<div className="tp-caption"
 										     data-x="center"
@@ -103,7 +102,7 @@ class Banner extends Component {
 										     data-transform_in="x:[50%];y:0;o:0;s:700;e:Power4.easeInOut;"
 										     data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span
 											className="icon large circle"><i
-											className="circle fa fa-lightbulb-o"></i></span>
+											className="circle fa fa-coffee"></i></span>
 										</div>
 
 										<div className="tp-caption"
@@ -115,7 +114,7 @@ class Banner extends Component {
 										     data-transform_in="x:[-50%];y:0;o:0;s:700;e:Power4.easeInOut;"
 										     data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span
 											className="icon large circle"><i
-											className="circle fa fa-rotate-left"></i></span>
+											className="circle fa fa-user-secret"></i></span>
 										</div>
 
 										<div className="tp-caption"
@@ -128,7 +127,7 @@ class Banner extends Component {
 										     data-transform_in="x:[50%];y:0;o:0;s:700;e:Power4.easeInOut;"
 										     data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span
 											className="icon large circle"><i
-											className="circle fa fa-line-chart"></i></span>
+											className="circle fa fa-code"></i></span>
 										</div>
 
 										<div className="tp-caption tp-resizeme large_white"
@@ -150,10 +149,9 @@ class Banner extends Component {
 										     data-transform_in="y:[-50%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
 										     data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
 										     data-mask_in="x:0px;y:[-50%];s:inherit;e:inherit;"
-										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Lorem ipsum dolor
-											sit amet, consectetur adipisicing elit. <br/> Nesciunt, maiores, aliquid.
-												Repellat eum numquam aliquid culpa offici, <br/> tenetur fugiat dolorum
-													sapiente eligendi...
+										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">We solve the problem
+											for you, so you don't have to <br/> Web Application, Mobile App <br/>
+											Development
 										</div>
 
 										<div className="tp-caption"
@@ -176,7 +174,7 @@ class Banner extends Component {
 								<li className="text-center" data-transition="crossfade" data-slotamount="7"
 								    data-masterspeed="default" data-title="Premium HTML5 Bootstrap Theme">
 
-									<img src="images/slider-fullscreen2-slide-2.jpg" alt="slidebg2"
+									<img src="images/image4.jpg" alt="slidebg2"
 									     data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover"
 									     className="rev-slidebg"/>
 
@@ -200,7 +198,7 @@ class Banner extends Component {
 										     data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
 										     data-mask_in="x:0px;y:[-100%];s:inherit;e:inherit;"
 										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span
-											className="logo-font">The Project</span> <br/> Impress your clients
+											className="logo-font">TECODE</span> <br/> Vantol Bennett
 										</div>
 
 										<div className="tp-caption ZoomIn fadeout text-center large_white tp-resizeme"
@@ -221,10 +219,8 @@ class Banner extends Component {
 										     data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
 										     data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
 										     data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Lorem ipsum dolor
-											sit amet, consectetur adipisicing elit. <br/> Nesciunt, maiores, aliquid.
-												Repellat eum numquam aliquid culpa offici, <br/> tenetur fugiat dolorum
-													sapiente eligendi...
+										     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">This allows for users
+											to view my portfolio and browse my lastest projects!
 										</div>
 
 										<div className="tp-caption"
@@ -246,6 +242,9 @@ class Banner extends Component {
 							<div className="tp-bannertimer"></div>
 						</div>
 					</div>
+					{/*Second Slide Set*/}
+
+
 
 				</div>
 

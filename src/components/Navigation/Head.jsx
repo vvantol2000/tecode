@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 class Head extends Component {
 	render() {
@@ -10,7 +11,7 @@ class Head extends Component {
 
 							<div className="header-top-first clearfix">
 								<ul className="social-links circle small clearfix hidden-sm-down">
-									<li className="twitter"><a href="#"><i className="fa fa-twitter"></i></a></li>
+									<Link className="twitter"to="/twitter"><i className="fa fa-twitter"></i></Link>
 									<li className="skype"><a href="#"><i className="fa fa-skype"></i></a></li>
 									<li className="linkedin"><a href="#"><i className="fa fa-linkedin"></i></a></li>
 									<li className="googleplus"><a href="#"><i className="fa fa-google-plus"></i></a>
@@ -46,14 +47,13 @@ class Head extends Component {
 									</div>
 								</div>
 								<ul className="list-inline hidden-md-down">
-									<li className="list-inline-item"><i className="fa fa-map-marker pr-1 pl-2"></i>Address,
-										City, Postal Code
+									<li className="list-inline-item"><i className="fa fa-map-marker pr-1 pl-2"></i>
+                                        Kingston, Jamaica
 									</li>
-									<li className="list-inline-item"><i className="fa fa-phone pr-1 pl-2"/>+00 123
-										123 123
+									<li className="list-inline-item"><i className="fa fa-phone pr-1 pl-2"/>+1 876 352 2225
 									</li>
 									<li className="list-inline-item">
-										<i className="fa fa-envelope-o pr-1 pl-2"/> example@your_domain.com
+										<i className="fa fa-envelope-o pr-1 pl-2"/> teckcare2011@gmail.com
 									</li>
 								</ul>
 							</div>
@@ -65,10 +65,51 @@ class Head extends Component {
 
 
 								<div className="header-top-dropdown text-right">
-									<div className="btn-group">
-										<a href="page-signup.html" className="btn btn-default btn-sm">
+									{/*<div className="btn-group">
+										<a href="page-signup" className="btn btn-default btn-sm">
 											<i className="fa fa-user pr-2"/> Sign Up</a>
-									</div>
+		</div>*/}<div className="btn-group">
+										<button id="header-top-drop-2" type="button"
+										className="btn dropdown-toggle btn-default btn-sm dropdown-toggle--no-caret"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i className="fa fa-lock pr-2"/> SignUp
+								</button>
+								<ul className="dropdown-menu dropdown-menu-right dropdown-animation"
+									aria-labelledby="header-top-drop-2">
+									<li>
+										<form className="login-form margin-clear">
+											<div className="form-group has-feedback">
+												<label className="control-label">Username</label>
+												<input type="text" className="form-control" placeholder=""/>
+													<i className="fa fa-user form-control-feedback"/>
+											</div>
+											<div className="form-group has-feedback">
+												<label className="control-label">Password</label>
+												<input type="password" className="form-control" placeholder=""/>
+													<i className="fa fa-lock form-control-feedback"/>
+											</div>
+											<button type="submit" className="btn btn-gray btn-sm">Log In
+											</button>
+											<span className="pl-1 pr-1">or</span>
+											<button type="submit" className="btn btn-default btn-sm">Sing Up
+											</button>
+											<ul>
+												<li><a href="#">Forgot your password?</a></li>
+											</ul>
+											<span className="text-center">Login with</span>
+											<ul className="social-links circle small colored clearfix">
+												<li className="facebook"><a href="#"><i
+													className="fa fa-facebook"/></a></li>
+												<li className="twitter"><a href="#"><i
+													className="fa fa-twitter"/></a></li>
+												<li className="googleplus"><a href="#"><i
+													className="fa fa-google-plus"/></a></li>
+											</ul>
+										</form>
+									</li>
+								</ul>
+							</div>
+		
 									<div className="btn-group">
 										<button id="header-top-drop-2" type="button"
 										        className="btn dropdown-toggle btn-default btn-sm dropdown-toggle--no-caret"
