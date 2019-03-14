@@ -4,7 +4,7 @@
 
 	$(document).ready(function() {
 
-		$('.countdown').countdown('2019/10/10', function(event) {
+		$('.countdown').countdown('2019/4/10', function(event) {
 		$(this).html(event.strftime('' +
 			'<span class="countdown-section"><span class="countdown-amount">%D</span> <span class="countdown-period">days</span></span> ' +
 			'<span class="countdown-section"><span class="countdown-amount">%H</span> <span class="countdown-period">hours</span></span> ' +

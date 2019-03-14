@@ -81,12 +81,12 @@ class HeaderTop extends Component {
 												<form className="login-form margin-clear">
 													<div className="form-group has-feedback">
 														<label className="control-label">Username</label>
-														<input type="text" className="form-control" placeholder="">
+														<input type="text" className="form-control" placeholder=""/>
 															<i className="fa fa-user form-control-feedback"></i>
 													</div>
 													<div className="form-group has-feedback">
 														<label className="control-label">Password</label>
-														<input type="password" className="form-control" placeholder="">
+														<input type="password" className="form-control" placeholder=""/>
 															<i className="fa fa-lock form-control-feedback"></i>
 													</div>
 													<button type="submit" className="btn btn-gray btn-sm">Log In

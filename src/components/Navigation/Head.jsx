@@ -70,7 +70,7 @@ class Head extends Component {
 											<i className="fa fa-user pr-2"/> Sign Up</a>
 		</div>*/}<div className="btn-group">
 										<button id="header-top-drop-2" type="button"
-										className="btn dropdown-toggle btn-default btn-sm dropdown-toggle--no-caret"
+										className="btn dropdown-toggle btn-default btn-sm dropdown-toggle--no-caret disabled"
 										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									<i className="fa fa-lock pr-2"/> SignUp
 								</button>
@@ -109,49 +109,7 @@ class Head extends Component {
 									</li>
 								</ul>
 							</div>
-		
-									<div className="btn-group">
-										<button id="header-top-drop-2" type="button"
-										        className="btn dropdown-toggle btn-default btn-sm dropdown-toggle--no-caret"
-										        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											<i className="fa fa-lock pr-2"/> Login
-										</button>
-										<ul className="dropdown-menu dropdown-menu-right dropdown-animation"
-										    aria-labelledby="header-top-drop-2">
-											<li>
-												<form className="login-form margin-clear">
-													<div className="form-group has-feedback">
-														<label className="control-label">Username</label>
-														<input type="text" className="form-control" placeholder=""/>
-															<i className="fa fa-user form-control-feedback"/>
-													</div>
-													<div className="form-group has-feedback">
-														<label className="control-label">Password</label>
-														<input type="password" className="form-control" placeholder=""/>
-															<i className="fa fa-lock form-control-feedback"/>
-													</div>
-													<button type="submit" className="btn btn-gray btn-sm">Log In
-													</button>
-													<span className="pl-1 pr-1">or</span>
-													<button type="submit" className="btn btn-default btn-sm">Sing Up
-													</button>
-													<ul>
-														<li><a href="#">Forgot your password?</a></li>
-													</ul>
-													<span className="text-center">Login with</span>
-													<ul className="social-links circle small colored clearfix">
-														<li className="facebook"><a href="#"><i
-															className="fa fa-facebook"/></a></li>
-														<li className="twitter"><a href="#"><i
-															className="fa fa-twitter"/></a></li>
-														<li className="googleplus"><a href="#"><i
-															className="fa fa-google-plus"/></a></li>
-													</ul>
-												</form>
-											</li>
-										</ul>
-									</div>
-								</div>
+							</div>
 							</div>
 						</div>
 					</div>
